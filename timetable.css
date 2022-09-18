@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script&display=swap');
+.navbar{
+    position: relative;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.navbar a{
+   padding-right:20px;
+   text-decoration: none;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height:50px;
+   color: #000000;
+}
+.navbar a:hover{
+    color: gray;
+   
+  
+ }
+ .l{
+    
+    text-align: right;
+    position: relative;
+    bottom: 3.3rem;
+   
+ }
+.home{
+    color: #3E83FB;
+ 
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+     bottom: 0.2rem;
+    /*left: 1rem; */
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    /* bottom: 2.9rem;
+    left: 1rem; */ 
+    text-align: left;
+  }
+.title:hover{
+    color: #3E83FB;
+    
+}
+.dot:hover{
+    background-color: #3E83FB;
+}
+
+img{
+    height: 8vh;
+    width: 5%;
+    position: relative;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    height: 80%;
+    border: gray;
+    border-radius: 100px;
+    border-style: solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #000000;
+    position: relative;
+    bottom: 1rem;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 1 0 2px rgba(0, 0, 0, 0.15);
+    width: 99.9%;
+    height: 60%;
+}
+.styled-table thead tr {
+    background-color: white;
+    color: #000000;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    /* color: orangered; */
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #000000;
+  }

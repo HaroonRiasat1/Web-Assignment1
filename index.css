@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script&display=swap');
+.navbar{
+    position: relative;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.navbar a{
+   padding-right:20px;
+   text-decoration: none;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height:50px;
+   color: #000000;
+}
+.navbar a:hover{
+    color: gray;
+   
+  
+ }
+ .l{
+    
+    text-align: right;
+    position: relative;
+    bottom: 3.3rem;
+   
+ }
+.home{
+    color: #3E83FB;
+ 
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+     bottom: 0.2rem;
+    /*left: 1rem; */
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    /* bottom: 2.9rem;
+    left: 1rem; */ 
+    text-align: left;
+  }
+.title:hover{
+    color: #3E83FB;
+    
+}
+.dot:hover{
+    background-color: #3E83FB;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 1000px) {
+   
+.profile-img{
+    height: 24vh;
+    /* filter: grayscale(100%); */
+    display: block;
+    position: relative;
+     border-radius: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     
+ }
+ .profile-p{
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 3vh;
+    font-size: 20px;
+}
+ 
+
+}
+    
+@media screen and (min-width: 1000px){
+.profile-img{
+   height: 50vh;
+  
+    position: relative;
+    left: 20vh;
+}
+.profile-p{
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 40vh;
+    font-size: 20px;
+}
+
+}
+
+.background-img{
+    position: relative;
+    background-image: url("images/background.jpg");
+    bottom: 2rem;
+    width: 100%;
+    height: 70vh;
+}
+.profile-txt{
+    color:white;
+    position: relative;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    top:10px
+}
+
+.position-span{
+    position: relative;
+    top: 0.5rem;
+    font-size: 200%;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Dancing Script', cursive;
+    color: orangered;
+}
+
+.icon{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    bottom:10rem;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+ 
+}
+
+
+.project-heading{
+    position: relative;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    
+    color: #000000;
+}
+
+
+/* projects */
+
+
+h2 {
+    font-size: 2em;
+    color: orangered;  
+  }
+  .centered {
+      margin: 0 auto;
+      padding: 0 1em;
+  }
+  
+  @media screen and (min-width: 52em) {
+      .centered {
+          max-width: 52em;
+      }
+  }
+  
+  /*--------------------------------------------------------------
+  Header styles minus menu
+  --------------------------------------------------------------*/
+  
+  .masthead {
+      background:orangered;
+        box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+  }
+  
+  .site-title {
+      margin: 0 0 1em;
+      padding: 1em 0;
+      font-size: 2em;
+      font-weight: 300;
+      text-align: center;
+      color: black;
+  }
+  
+  @media screen and (min-width: 44.44em) {
+      .site-title {
+          font-size: 2em;
+      }
+  }
+      
+  @media screen and (min-width: 50em) {
+      .site-title {
+          font-size: 2.5em;
+      }
+  }
+  
+  .site-title a {
+      color: hsl(5, 45%, 95%);
+      text-decoration: none;
+  }
+  
+  .site-title a:hover {
+      text-decoration: underline;
+  }
+  
+  /* Card Based Layout - Base styles */
+ 
+  
+  .site-title {
+      color: white;
+  }
+  
+  .card {
+      background: white;
+      margin-bottom: 2em;	
+  }
+  
+  .card a {
+      color: black;
+      text-decoration: none;
+  }
+  
+  .card a:hover {
+      box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+  }
+  
+  .card-content {
+      padding: 1.4em;
+  }
+  
+  .card-content h2 {
+      margin-top: 0;
+      margin-bottom: .5em;
+      font-weight: normal;
+  }
+  
+  .card-content p {
+      font-size: 95%;
+  }
+  main{
+    border-bottom: 2px solid gray;
+    border-width: 1px;
+  }
+  
+  main img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Flexbox styles */
+  @media screen and (min-width: 40em) {  
+    .cards {
+      margin-top: -1em;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      margin-bottom: 1em;
+      display: flex;
+      flex: 0 1 calc(50% - 0.5em);
+      /* width: calc(50% - 1em); */
+    }
+  } /* mq 40em*/
+  
+  @media screen and (min-width: 60em) {
+    .cards {
+      margin-top: inherit;
+    }
+    
+    .card {
+      margin-bottom: 2em;
+      display: flex;
+      flex: 0 1 calc(33% - 0.5em);
+      /* width: calc(33% - 1em); */
+    }
+  } /* mq 60em*/
+
+  .btn{
+    background-color: orangered;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+  }
+
+  .card-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+  }
+
+  footer{
+    text-align: center;
+    color: white;
+    background-color: #000000;
+  }
